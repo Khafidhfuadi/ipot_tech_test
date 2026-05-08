@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+
+/// Application theme configuration.
+class AppTheme {
+  AppTheme._();
+
+  static ThemeData get lightTheme {
+    return ThemeData(
+      useMaterial3: true,
+      colorSchemeSeed: Colors.blue,
+      brightness: Brightness.light,
+    );
+  }
+
+  static ThemeData get darkTheme {
+    return ThemeData(
+      useMaterial3: true,
+      colorSchemeSeed: Colors.blue,
+      brightness: Brightness.dark,
+    );
+  }
+}
