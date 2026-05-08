@@ -60,3 +60,6 @@ local.properties
 .packages
 **/ios/Flutter/Generated.xcconfig
 **/ios/Flutter/flutter_export_environment.sh
+
+.gitignore
+.agents
